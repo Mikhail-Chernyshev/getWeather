@@ -53,10 +53,10 @@ export default {
     <button disabled v-else>Enter city</button>
     <p class="error">{{ error }}</p>
     <div v-if="info != null">
-          <p>{{ showTemp }}</p>
-          <p>{{ showFeelsLike }}</p>
-          <p>{{ showMinTemp }}</p>
-          <p>{{ showMaxTemp }}</p>
+      <p>{{ showTemp }}</p>
+      <p>{{ showFeelsLike }}</p>
+      <p>{{ showMinTemp }}</p>
+      <p>{{ showMaxTemp }}</p>
     </div>
   </div>
 </template>
